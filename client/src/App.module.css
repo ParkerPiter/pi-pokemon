@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  width: 48em;
+}
+
+.boton{
+ border-radius: 30px;
+ background-color: #004AAD;
+ color: #FFDE59;
+ font-size: 35px;
+ font-family: 'Righteous', cursive;
+ padding: 0 20px;
+ border: none;
+ box-shadow: 1px 8px 6px rgba(0, 0, 0, 0.8);
+
+}
+
+ /* {
+  height: 40px;
+  pointer-events: none;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+} */
+

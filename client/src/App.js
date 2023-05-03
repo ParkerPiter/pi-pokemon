@@ -1,9 +1,11 @@
-import './App.css';
+import logo from './img/Pokémon page .png';
+import s from './App.module.css'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Henry Pokemon</h1>
+    <div className={s.contenedor}>
+        <img src={logo} className={s.logo} alt="logo" />
+        <button className={s.boton}>IR AL HOME</button>
     </div>
   );
 }
