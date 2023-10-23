@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Righteous';
+}
+
+.botones{
+    font-family: 'Righteous';
+    border: none;
+    margin: 10px 20px;
+    font-size: 18px;
+    background-color: #3D53A0;
+    color: #FFCB05;
+    border-radius: 25px;
+    padding: 2px 15px;
+}
+
+.botones:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}

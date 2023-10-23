@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 97vh;
+}
+
+.photo{
+    flex: 1;
+    width: 450px;
+    height: 450px;
+    margin-left: 45px;
+}
+
+.vibrate{
+    animation:vibrate .4s linear both;
+    animation-delay: 1.2s;
+} @keyframes vibrate{
+    0%{
+        transform:translate(0)
+    }
+    20%{
+        transform:translate(-2px,2px)
+    }
+    40%{
+        transform:translate(-2px,-2px)
+    }
+    60%{
+        transform:translate(2px,2px)
+    }
+    80%{transform:translate(2px,-2px)
+    }
+    100%{
+        transform:translate(0)
+    }
+}
+  
+.textContainer {
+    flex: 1;
+    border-radius: 25px;
+    background-color: white;
+    font-family: 'Righteous';
+    padding: 20px 20px;
+    margin-right: 100px;
+}
+
+.title{
+    text-align: center;
+}
+.infodata{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.data{
+    font-size: 25px ;
+}
+
+.type{
+    text-align: center;
+
+}
+
+.icon{
+    width: 45px;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+}
+
+.boton{
+    border: none;
+    background-color: transparent;
+    font-family: 'Righteous';
+    font-size: 15px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.card {
+    height: 340px;
+    position: relative;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    width: 250px;
+    background-color: beige;
+}
+
+.imagen{
+    margin-top: 5px;
+    width: 195px;
+    height: 205px;
+}
+
+.info{
+    font-family: 'Righteous';
+    font-size: 15px;
+}
+
+.name{
+    font-size: 18px;
+}
+
+.boton{
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Righteous';
+    padding: 2px 12px;
+    color: white;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background-color: #3D53A0;
+    color: #FFCB05;
+}

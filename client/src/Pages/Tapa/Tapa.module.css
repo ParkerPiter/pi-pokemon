@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+  background-color: #FFEF68;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  width: 48em;
+}
+
+.boton{
+ border-radius: 30px;
+ background-color: #004AAD;
+ /* color: #FFDE59;*/
+ color: white;
+ font-size: 35px;
+ font-family: 'Righteous', cursive;
+ padding: 0 20px;
+ border: none;
+ box-shadow: 1px 8px 6px rgba(0, 0, 0, 0.8);
+}
+
+.boton:hover{
+  cursor: pointer;
+}
